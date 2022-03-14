@@ -1,1 +1,31 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body {
+  background: #bebebe;
+}
+
+.card {
+  width: 18rem;
+  border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
+}
+
+.card .card-img-top {
+  border-radius: 1.25rem 1.25rem 0 0;
+}
+
+.card .card-body {
+  background: #fff;
+  color: #000;
+  height: 8rem;
+  border-radius: 0 0 1.25rem 1.25rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.card .card-body:hover {
+  background: #000;
+  color: #fff;
+}
+
+.card .card-body .card-title {
+  cursor: default;
+}
+/*# sourceMappingURL=main.css.map */

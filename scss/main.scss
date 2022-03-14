@@ -1,1 +1,35 @@
+$background-color: #bebebe;
 
+body {
+  background: $background-color;
+}
+
+@mixin transition-ease {
+  transition: all 0.3s ease-in-out;
+}
+
+.card {
+  width: 18rem;
+  border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
+
+  .card-img-top {
+    border-radius: 1.25rem 1.25rem 0 0;
+  }
+
+  .card-body {
+    background: #fff;
+    color: #000;
+    height: 8rem;
+    border-radius: 0 0 1.25rem 1.25rem;
+    @include transition-ease;
+
+    &:hover {
+      background: #000;
+      color: #fff;
+    }
+
+    .card-title {
+      cursor: default;
+    }
+  }
+}
