@@ -20,7 +20,7 @@ $.ajax({
   type: "GET",
   dataType: "json",
   contentType: "application/json",
-  url: "../placeholders.json",
+  url: "/placeholders.json",
   success: function (data) {
     let card = "";
     for (let i = 0; i < 20; i++) {
