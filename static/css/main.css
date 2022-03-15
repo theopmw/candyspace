@@ -5,10 +5,6 @@
   padding: 0;
 }
 
-body {
-  background: #bebebe;
-}
-
 .card {
   width: 18rem;
   border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
@@ -44,5 +40,10 @@ body {
 
 .card .card-body .card-title {
   cursor: default;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #bebebe;
 }
 /*# sourceMappingURL=main.css.map */
