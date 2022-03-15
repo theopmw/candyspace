@@ -20,7 +20,7 @@ $(function () {
   $.ajax({
     dataType: "json",
     contentType: "application/json",
-    url: "/static/js/placeholders.json",
+    url: "/candyspace/static/js/placeholders.json",
     success: function (data) {
       let card = "";
       console.log(data);
