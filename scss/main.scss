@@ -1,13 +1,7 @@
-$background-color: #bebebe;
-$primary-color: #fff;
-$secondary-color: #000;
+@import "config";
 
 body {
   background: $background-color;
-}
-
-@mixin transition-ease {
-  transition: all 0.3s ease-in-out;
 }
 
 .card {
