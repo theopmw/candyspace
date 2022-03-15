@@ -1,4 +1,4 @@
-$.getJSON("/placeholders.json", function (data) {
+$.getJSON("../placeholders.json", function (data) {
   let card = "";
   for (let i = 0; i < 20; i++) {
     card +=
