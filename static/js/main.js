@@ -19,6 +19,7 @@
 $.ajax({
   type: "GET",
   dataType: "json",
+  contentType: "application/json",
   url: "../placeholders.json",
   success: function (data) {
     let card = "";
