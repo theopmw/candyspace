@@ -1,4 +1,6 @@
 $background-color: #bebebe;
+$primary-color: #fff;
+$secondary-color: #000;
 
 body {
   background: $background-color;
@@ -26,15 +28,15 @@ body {
   }
 
   .card-body {
-    background: #fff;
-    color: #000;
+    background: $primary-color;
+    color: $secondary-color;
     height: 8rem;
     border-radius: 0 0 1.25rem 1.25rem;
     @include transition-ease;
 
     &:hover {
-      background: #000;
-      color: #fff;
+      background: $secondary-color;
+      color: $primary-color;
     }
 
     .card-title {
