@@ -23,7 +23,9 @@ $(function () {
     url: "/static/js/placeholders.json",
     success: function (data) {
       let card = "";
+      console.log(data);
       for (let i = 0; i < 20; i++) {
+        console.log(data);
         card +=
           '<div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center"> <div class="card m-4"> <img class="card-img-top" src="' +
           data[i].thumbnailUrl +
